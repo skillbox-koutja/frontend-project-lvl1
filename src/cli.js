@@ -1,7 +1,10 @@
-import readlineSync from 'readline-sync';
+import auth from './auth.js';
+import main from './main.js';
 
-export default function cli() {
-  console.log('Welcome to the Brain Games!');
-  const name = readlineSync.question('Your answer: ');
-  console.log(`Hello, ${name}!`);
-}
+export default (play) => {
+  const user = auth();
+
+  if (!play) return;
+
+  main(user, play);
+};
