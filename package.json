@@ -1,5 +1,5 @@
 {
-  "name": "@hexlet/code",
+  "name": "@skillbox-koutja/brain-games",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/skillbox-koutja/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/skillbox-koutja/frontend-project-lvl1/actions)",
   "main": "index.js",
@@ -14,10 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/skillbox-koutja/frontend-project-lvl1.git"
   },
-  "author": "Micha Koujakin",
+  "author": "Micha Koutjakin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/skillbox-koutja/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/skillbox-koutja/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/skillbox-koutja/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
